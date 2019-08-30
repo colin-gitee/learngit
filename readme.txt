@@ -9,7 +9,9 @@ git clone [url]
 二、配置
 1、全局配置
 git config --global user.name "colin"
-git config --global user.emial "1091586412@qq.com"
+git config --global user.email "1091586412@qq.com"
+git config --global --unset user.email
+
 2、显示git配置
 git config --list
 3、编辑git配置文件
